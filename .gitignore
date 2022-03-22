@@ -1,0 +1,17 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/C_SharpDev_MOD1_HW/.vs/C_SharpDev_MOD1_HW/v17
+/C_SharpDev_MOD1_HW/C_SharpDev_MOD1_HW_Task1/bin/Debug
+/C_SharpDev_MOD1_HW/C_SharpDev_MOD1_HW_Task1/Properties
+/C_SharpDev_MOD1_HW/C_SharpDev_MOD1_HW_Task1/obj
+/C_SharpDev_MOD1_HW/C_SharpDev_MOD1_HW_Task1/C_SharpDev_MOD1_HW_Task1.csproj
+/C_SharpDev_MOD1_HW/C_SharpDev_MOD1_HW_Task1/App.config
+/C_SharpDev_MOD1_HW/C_SharpDev_MOD1_HW_Task2/bin/Debug
+/C_SharpDev_MOD1_HW/C_SharpDev_MOD1_HW_Task2/obj
+/C_SharpDev_MOD1_HW/C_SharpDev_MOD1_HW_Task2/Properties
+/C_SharpDev_MOD1_HW/C_SharpDev_MOD1_HW_Task2/C_SharpDev_MOD1_HW_Task2.csproj
+/C_SharpDev_MOD1_HW/C_SharpDev_MOD1_HW_Task2/App.config
+/C_SharpDev_MOD1_HW/C_SharpDev_MOD1_HW.sln
