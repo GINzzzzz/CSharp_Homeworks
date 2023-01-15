@@ -1,26 +1,26 @@
 ﻿Console.Write("Введите максимальное число диапазона: ");
-int limit_upper = int.Parse(Console.ReadLine());
+int limitUpper = int.Parse(Console.ReadLine());
 
 var random = new Random();
-int number_target = random.Next(0, limit_upper + 1);
+int numberTarget = random.Next(0, limitUpper + 1);
 
 //Console.WriteLine($"({number_target})");
 
 while (true)
 {
     Console.Write("Угадайте число (или нажмите Enter для выхода): ");
-    var user_response = Console.ReadLine();
+    var userResponse = Console.ReadLine();
 
-    if (user_response == "") break;
+    if (userResponse == "") break;
     
-    int number_guess = int.Parse(user_response);
+    int numberGuess = int.Parse(userResponse);
 
-    if (number_target == number_guess)
+    if (numberTarget == numberGuess)
     {
         Console.WriteLine("Угадали!");
         break;
     }
-    else if (number_target > number_guess) Console.WriteLine("Загаданное число больше.");
-    else if (number_target < number_guess) Console.WriteLine("Загаданное число меньше.");
+    else if (numberTarget > numberGuess) Console.WriteLine("Загаданное число больше.");
+    else if (numberTarget < numberGuess) Console.WriteLine("Загаданное число меньше.");
 }
 

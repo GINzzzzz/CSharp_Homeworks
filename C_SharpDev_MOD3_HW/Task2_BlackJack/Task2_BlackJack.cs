@@ -7,22 +7,15 @@ for (int i = 0; i < cnt_hand; i++)
     Console.Write($"Введите номинал карты {i+1}: ");
     var card = Console.ReadLine();
 
-    switch(card)
+    switch(card.ToUpper())
     {
-        case "J":
+        case ("J" or "Q" or "K" or "A"):
             summa_hand += 10;
             break;
-        case "Q":
-            summa_hand += 10;
-            break;
-        case "K":
-            summa_hand += 10;
-            break;
-        case "A":
-            summa_hand += 10;
+        case ("2" or "3" or "4" or "5" or "6" or "7" or "8" or "9" or "10"):
+            summa_hand += int.Parse(card);
             break;
         default:
-            summa_hand += int.Parse(card);
             break;
     }
 }

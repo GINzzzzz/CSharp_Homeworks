@@ -16,7 +16,7 @@ while (divider < number)
     divider += 1;
 }
 
-if (prime == true)
+if (prime)
 {
     Console.WriteLine("Число простое.");
 }
